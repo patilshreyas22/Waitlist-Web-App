@@ -2,7 +2,7 @@ const { faker } = require('@faker-js/faker');
 var mysql = require('mysql');
 
 var connection = mysql.createConnection({
-  host     : 'localhost',
+  host     : 'localhost',//host name can vary
   user     : 'root',
   database : 'JOIN_US'
 });
